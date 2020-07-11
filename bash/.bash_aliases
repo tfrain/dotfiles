@@ -13,7 +13,7 @@ alias gobin='cd $GOPATH/bin'
 alias gotc='cd $GOPATH/src/toscli'
 # tools
 alias vima='vim ~/.bash_aliases'
-alias vimn='vim ~/note.md'
+alias vimn='vim ~/.cheat/note.txt'
 
 
 # help
