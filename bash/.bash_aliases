@@ -7,10 +7,7 @@ alias t='tmux'
 alias tn='t new -s'
 alias ta='t attach -t'
 # go
-alias gomain='cd $GOPATH/src/freewei.ml/hello/'
-alias gotos='cd $GOPATH/src/code.byted.org/storage/tos'
-alias gobin='cd $GOPATH/bin'
-alias gotc='cd $GOPATH/src/toscli'
+alias godot='cd ~/Repositories/dotfiles'
 # tools
 alias vima='vim ~/.bash_aliases'
 alias vimn='vim ~/.cheat/note.txt'
