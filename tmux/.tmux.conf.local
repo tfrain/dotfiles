@@ -296,7 +296,7 @@ tmux_conf_copy_to_os_clipboard=false
 #set -g status-position top
 
 unbind '%'
-bind \\ splitw -h -c '#{pane_current_path}'
+bind \ splitw -h -c '#{pane_current_path}'
 
 # split current window horizontally
 bind - split-window -v
@@ -323,3 +323,6 @@ unbind p
 bind -r C-h previous-window # select previous window
 bind -r C-l next-window     # select next window
 bind Tab last-window        # move to last active window
+# vim mode
+setw -g mode-keys vi
+
