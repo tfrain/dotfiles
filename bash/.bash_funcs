@@ -5,6 +5,9 @@ tf() {
 login(){
     ssh tiger@$1
 }
+c(){
+    bash ~/code/bash/c.sh $1
+}
 # function
 
 fd() {

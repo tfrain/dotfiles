@@ -298,31 +298,9 @@ tmux_conf_copy_to_os_clipboard=false
 unbind '%'
 bind \ splitw -h -c '#{pane_current_path}'
 
-# split current window horizontally
-bind - split-window -v
-# split current window vertically
-bind _ split-window -h
+# rename off
+setw -g automatic-rename off
+setw -g allow-rename off
 
-# pane navigation
-bind -r h select-pane -L  # move left
-bind -r j select-pane -D  # move down
-bind -r k select-pane -U  # move up
-bind -r l select-pane -R  # move right
-bind > swap-pane -D       # swap current pane with the next one
-bind < swap-pane -U       # swap current pane with the previous one
-
-# pane resizing
-bind -r H resize-pane -L 2
-bind -r J resize-pane -D 2
-bind -r K resize-pane -U 2
-bind -r L resize-pane -R 2
-
-# window navigation
-unbind n
-unbind p
-bind -r C-h previous-window # select previous window
-bind -r C-l next-window     # select next window
-bind Tab last-window        # move to last active window
-# vim mode
-setw -g mode-keys vi
-
+# restart quickly
+run-shell ~/.tmux/plugins/tmux-resurrect/resurrect.tmux
