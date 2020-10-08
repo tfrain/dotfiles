@@ -1,6 +1,0 @@
-pane	wei	1	:zsh	0	:-	1	:/home/wei	1	zsh	:
-pane	wei	1	:zsh	0	:-	2	:/home/wei	0	zsh	:
-pane	wei	2	:zsh	1	:*	1	:/home/wei	1	zsh	:
-window	wei	1	0	:-	6509,173x46,0,0{86x46,0,0,0,86x46,87,0,1}
-window	wei	2	1	:*	c5c0,173x46,0,0,3
-state	wei	

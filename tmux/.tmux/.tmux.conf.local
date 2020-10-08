@@ -302,5 +302,6 @@ bind \ splitw -h -c '#{pane_current_path}'
 setw -g automatic-rename off
 setw -g allow-rename off
 
-# restart quickly
-run-shell ~/.tmux/plugins/tmux-resurrect/resurrect.tmux
+# colour
+set-option -sa terminal-overrides ',XXX:RGB'
+set-option -sa terminal-overrides ',XXX:Tc'

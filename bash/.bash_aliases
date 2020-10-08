@@ -8,6 +8,9 @@ alias tn='t new -s'
 alias ta='t attach -t'
 # go
 alias godot='cd ~/Repositories/dotfiles'
+alias gogo='cd /home/wei/Repositories/Golang_Puzzlers/src/puzzlers'
+alias gomain='/home/wei/work/GOPATH/src/freewei.ml/hello'
+
 # tools
 alias vima='vim ~/.bash_aliases'
 alias vimn='vim ~/.cheat/note.txt'
@@ -15,6 +18,7 @@ alias vimn='vim ~/.cheat/note.txt'
 
 # help
 alias h='tldr'
+alias yu='/usr/local/bin/asciiquarium'
 
 alias nis="npm install --save "
 alias mkcd='foo(){ mkdir -p "$1"; cd "$1" }; foo '

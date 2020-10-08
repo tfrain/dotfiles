@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+tmux/.tmux/resurrect/*
