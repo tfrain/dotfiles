@@ -19,8 +19,12 @@
     ./ohmyzsh/plugins/history-search-multi-word: zsh/history-search-multi-word
     ./ohmyzsh/custom/themes/powerlevel10k: zsh/powerlevel10k
     ~/.p10k.zsh:
-    ~/.tmux.conf.local: tmux/.tmux.conf.local
-    ~/.tmux.conf: tmux/.tmux.conf
+    ~/.tmux.conf.local:
+      force: true
+      path: tmux/.tmux.conf.local
+    ~/.tmux.conf:
+      force: true
+      path: tmux/.tmux.conf
     ~/.config/nvim: nvim
     ~/.zshrc:
 
