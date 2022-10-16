@@ -106,13 +106,10 @@
 [user]
 	useConfigOnly = true
 
-[http]
-	cookieFile = ~/.gitcookies
-
 [core]
 	excludesfile = ~/.gitignore_global
 
-# Allow local customizations in the .gitconfig_local file
+# Allow local customizations in the .gitconfig-personal file
 [includeIf "gitdir:~/go/"]
   path = .gitconfig-personal
 [includeIf "gitdir:~/Repositories/"]
