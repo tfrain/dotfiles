@@ -19,6 +19,9 @@
     ./ohmyzsh/plugins/history-search-multi-word: zsh/history-search-multi-word
     ./ohmyzsh/custom/themes/powerlevel10k: zsh/powerlevel10k
     ~/.p10k.zsh:
+    ~/.tmux:
+    ~/.tmux/plugins/tpm: zsh/tpm
+    ~/.tmux/plugins/tmux-resurrect: zsh/tmux-resurrect
     ~/.tmux.conf.local:
       force: true
       path: tmux/.tmux.conf.local

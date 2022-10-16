@@ -16,3 +16,9 @@
 [submodule "zsh/powerlevel10k"]
 	path = zsh/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "zsh/tpm"]
+	path = zsh/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "zsh/tmux-resurrect"]
+	path = zsh/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect
