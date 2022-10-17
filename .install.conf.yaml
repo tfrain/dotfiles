@@ -22,11 +22,12 @@
     ~/.tmux:
     ~/tmux/plugins/tpm: zsh/tpm
     ~/tmux/plugins/tmux-resurrect: zsh/tmux-resurrect
+    # tmux source not source
     ~/.tmux.conf.local:
-      force: true
+      ignore-missing: true
       path: tmux/.tmux.conf.local
     ~/.tmux.conf:
-      force: true
+      ignore-missing: true
       path: tmux/.tmux.conf
     ~/.config/nvim: nvim
     ~/.zshrc:
