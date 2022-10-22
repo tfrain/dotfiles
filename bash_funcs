@@ -9,7 +9,6 @@ c(){
     bash ~/code/bash/c.sh $1
 }
 
-alias lln="/usr/bin/ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s 's/^\s*\([0-9]*\)\s*\(.*\)/[\1]  \2 [\1]/'g && pwd"
 function lf() {
     if [ "x${1}" == "x" ]
     then
@@ -155,3 +154,39 @@ alias mirrorsite='wget -m -k -K -E -e robots=off'
 
 # Mirror stdout to stderr, useful for seeing data going through a pipe
 alias peek='tee >(cat 1>&2)'
+
+
+path_prepend "$HOME/.local/bin"
+path_prepend "$HOME/.dotfiles/bin"
+
+path_remove() {
+    PATH=$(echo -n "$PATH" | awk -v RS=: -v ORS=: "\$0 != \"$1\"" | sed 's/:$//')
+}
+
+path_append() {
+    path_remove "$1"
+    PATH="${PATH:+"$PATH:"}$1"
+}
+
+path_prepend() {
+    path_remove "$1"
+    PATH="$1${PATH:+":$PATH"}"
+}
+
+here() {
+    local loc
+    if [ "$#" -eq 1 ]; then
+        loc=$(realpath "$1")
+    else
+        loc=$(realpath ".")
+    fi
+    ln -sfn "${loc}" "$HOME/.shell.here"
+    echo "here -> $(readlink $HOME/.shell.here)"
+}
+
+there="$HOME/.shell.here"
+
+there() {
+    cd "$(readlink "${there}")"
+}
+

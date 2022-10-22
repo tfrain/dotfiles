@@ -7,13 +7,9 @@ alias lt="ls --tree"
 alias t='tmux'
 alias tn='t new -s'
 alias ta='t attach -t'
-# go
-alias godot='cd ~/Repositories/dotfiles'
-alias gogo='cd /home/wei/Repositories/Golang_Puzzlers/src/puzzlers'
-alias gomain='/home/wei/Code/go/src/freewei.ml/hello'
-alias gobin='cd /home/wei/Code/go/bin'
 
 # tools
+alias lln="/usr/bin/ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s 's/^\s*\([0-9]*\)\s*\(.*\)/[\1]  \2 [\1]/'g && pwd"
 alias vi="nvim"
 alias vima='vi ~/.bash_aliases;'
 alias vimr='vi ~/.zshrc; source ~/.zshrc'
