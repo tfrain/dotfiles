@@ -1,5 +1,4 @@
 # ls
-alias ls="lsd"
 alias ll="ls -l"
 alias la="ls -a"
 alias lt="ls --tree"
@@ -14,8 +13,6 @@ alias vi="nvim"
 alias vima='vi ~/.bash_aliases;'
 alias vimr='vi ~/.zshrc; source ~/.zshrc'
 alias gia='vi ~/.oh-my-zsh/plugins/git/git.plugin.zsh'
-alias vimn='vi ~/.cheat/note.txt'
-alias viml='vi ~/.cheat/linux.md'
 alias setproxy="export http_proxy=socks5://127.0.0.1:10808; export https_proxy=socks5://127.0.0.1:10808; echo 'HTTP Proxy on';"
 alias unsetproxy="unset http_proxy; unset https_proxy; echo 'HTTP Proxy off';"
 alias proxy="curl cip.cc"

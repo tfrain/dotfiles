@@ -20,9 +20,9 @@
     ~/.oh-my-zsh/custom/themes/powerlevel10k: zsh/powerlevel10k
     ~/.p10k.zsh:
     ~/.tmux:
-    ~/tmux/plugins/tpm: zsh/tpm
-    ~/tmux/plugins/tmux-resurrect: zsh/tmux-resurrect
-    ~/tmux/plugins/tmux-continuum: zsh/tmux-continuum
+    ~/.tmux/plugins/tpm: zsh/tpm
+    ~/.tmux/plugins/tmux-resurrect: zsh/tmux-resurrect
+    ~/.tmux/plugins/tmux-continuum: zsh/tmux-continuum
     # tmux source not source
     ~/.tmux.conf.local:
       ignore-missing: true
