@@ -126,9 +126,9 @@ export GO111MODULE=on
 export GOPROXY=https://goproxy.cn
 
 # java
-export JAVA_HOME=/home/wei/App/jdk1.8.0_191 
-export CLASSPATH=/home/wei/App/jdk1.8.0_191/bin
-export PATH=$PATH:$JAVA_HOME/bin:$CLASSPATH
+# export JAVA_HOME=/home/wei/App/jdk1.8.0_191 
+# export CLASSPATH=/home/wei/App/jdk1.8.0_191/bin
+# export PATH=$PATH:$JAVA_HOME/bin:$CLASSPATH
 
 # protoc
 export PROTO=/home/travis
@@ -144,8 +144,8 @@ export REACT_EDITOR="nvim"
 export HISTFILE="$HOME/.zsh_history"
 
 ## pyenv configs
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-
-source "$(redo alias-file)"
+## if command -v pyenv 1>/dev/null 2>&1; then
+##   eval "$(pyenv init -)"
+## fi
+## 
+## source "$(redo alias-file)"

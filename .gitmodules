@@ -22,3 +22,6 @@
 [submodule "zsh/tmux-resurrect"]
 	path = zsh/tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect
+[submodule "zsh/tmux-continuum"]
+	path = zsh/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum.git

@@ -83,3 +83,8 @@ addSearchAlias(
   'https://onelook.com/?w=',
   's');
 
+addSearchAlias(
+  'u',
+  'swurl search',
+  'https://swurl.com/?q=',
+  's');

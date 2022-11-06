@@ -41,6 +41,8 @@ nnoremap <silent> <Leader>fl :<C-u>Clap loclist<CR>
 nnoremap <silent> <Leader>fu :<C-u>Clap git_diff_files<CR>
 nnoremap <silent> <Leader>fv :<C-u>Clap grep ++query=@visual<CR>
 nnoremap <silent> <Leader>oc :<C-u>Clap personalconf<CR>
+nnoremap <silent> <Leader>. :<C-u>Clap providers<CR>
+nnoremap <silent> <Leader>ft :<C-u>Clap tags<CR>
 
 "--------------------------"
 "     coc-clap Keymap      "
@@ -127,6 +129,14 @@ omap <silent> af <Plug>(textobj-function-a)
 omap <silent> if <Plug>(textobj-function-i)
 xmap <silent> af <Plug>(textobj-function-a)
 xmap <silent> if <Plug>(textobj-function-i)
+
+nnoremap <silent> <Leader>ga :Git add %:p<CR>
+nnoremap <silent> <Leader>gd :Gdiffsplit<CR>
+nnoremap <silent> <Leader>gc :Git commit<CR>
+nnoremap <silent> <Leader>gb :Git blame<CR>
+" nnoremap <silent> <Leader>gf :Git checkout master|Git pull|Git cleanup-merged<CR>
+nnoremap <silent> <Leader>gs :Git<CR>
+nnoremap <silent> <Leader>gp :Git push orgin $(git rev-parse --abbrev-ref HEAD)<CR>
 
 "--------------------------"
 "     Coc Keymap           "

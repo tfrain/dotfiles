@@ -1,5 +1,15 @@
 
 [[plugins]]
+repo = 'tpope/vim-fugitive'
+on_cmd = [ 'G', 'Git', 'Gfetch', 'Gpush', 'Glog', 'Gclog', 'Gdiffsplit' ]
+hook_source = '''
+    augroup user_fugitive_plugin
+      autocmd!
+      autocmd FileType fugitiveblame normal A
+    augroup END
+'''
+
+[[plugins]]
 repo = 'rhysd/committia.vim'
 on_path = [ 'COMMIT_EDITMSG', 'MERGE_MSG' ]
 hook_source = '''

@@ -14,10 +14,15 @@
     ~/.bash_funcs:
     ~/.config/surfingkeys.js:
     ~/.oh-my-zsh: ohmyzsh
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
+    ~/.oh-my-zsh/custom/plugins/history-search-multi-word: zsh/history-search-multi-word
+    ~/.oh-my-zsh/custom/themes/powerlevel10k: zsh/powerlevel10k
     ~/.p10k.zsh:
     ~/.tmux:
     ~/tmux/plugins/tpm: zsh/tpm
     ~/tmux/plugins/tmux-resurrect: zsh/tmux-resurrect
+    ~/tmux/plugins/tmux-continuum: zsh/tmux-continuum
     # tmux source not source
     ~/.tmux.conf.local:
       ignore-missing: true
@@ -35,7 +40,3 @@
     command: git update-submodules
     stdout: true
     stderr: true
-  - ln -fs ./zsh/zsh-syntax-highlighting ./ohmyzsh/plugins/zsh-syntax-highlighting
-  - ln -fs ./zsh/zsh-autosuggestions ./ohmyzsh/plugins/zsh-autosuggestions
-  - ln -fs ./zsh/history-search-multi-word ./ohmyzsh/plugins/history-search-multi-word
-  - ln -fs ./zsh/powerlevel10k ./ohmyzsh/custom/themes/powerlevel10k
