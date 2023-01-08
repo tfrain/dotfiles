@@ -16,6 +16,7 @@ alias gia='vi ~/.oh-my-zsh/plugins/git/git.plugin.zsh'
 alias setproxy="export http_proxy=socks5://127.0.0.1:10808; export https_proxy=socks5://127.0.0.1:10808; echo 'HTTP Proxy on';"
 alias unsetproxy="unset http_proxy; unset https_proxy; echo 'HTTP Proxy off';"
 alias proxy="curl cip.cc"
+alias aproxy="curl www.cloudflare.com/cdn-cgi/trace"
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 

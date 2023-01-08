@@ -140,6 +140,9 @@ export EDITOR="nvim"
 export GIT_EDITOR="nvim"
 export REACT_EDITOR="nvim"
 
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # History
 export HISTFILE="$HOME/.zsh_history"
 

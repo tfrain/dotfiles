@@ -54,12 +54,6 @@ cmap('<Ctrl-[>', "<Esc>");
 imap('<Ctrl-[>', "<Esc>");
 
 addSearchAlias(
-  'cs',
-  'chrome search',
-  'https://chrome.google.com/webstore/search/',
-  's');
-
-addSearchAlias(
   'lc',
   'linux command search',
   'https://wangchujiang.com/linux-command/list.html#!kw=',
