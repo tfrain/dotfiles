@@ -105,8 +105,6 @@
 
 [user]
 	useConfigOnly = true
-	email = weichengdouble@outlook.com
-	name = tfrain
 
 [core]
 	excludesfile = ~/.gitignore_global
@@ -114,6 +112,7 @@
 # Allow local customizations in the .gitconfig-personal file
 [include]
    path = .gitconfig-personal
+   path = .gitconfig-local
 # https://www.51cto.com/article/631604.html
 # git repos, dir of work
 [includeIf "gitdir:~/work/"]

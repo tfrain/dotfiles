@@ -2,7 +2,8 @@
 Installing brew, git. configure git config and ssh, then download this repo.
 After cloning this repo, run `install` to automatically set up your development
 config.
-*NB*: .zshrc and .gitconfig will be forcibly replaced. and it only tested in macbook
+
+**NB**: .zshrc and .gitconfig will be forcibly replaced. and it only tested in macbook
 m1.
 
 ## Using the config
