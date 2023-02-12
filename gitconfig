@@ -105,6 +105,8 @@
 
 [user]
 	useConfigOnly = true
+	email = weichengdouble@outlook.com
+	name = tfrain
 
 [core]
 	excludesfile = ~/.gitignore_global
