@@ -8,6 +8,7 @@
 - link:
     ~/.dotfiles: ''
     ~/.gitconfig:
+      force: true
     ~/.gitconfig-personal:
     ~/.gitignore_global:
     ~/.bash_aliases:
@@ -32,6 +33,7 @@
       path: tmux/.tmux.conf
     ~/.config/nvim: nvim
     ~/.zshrc:
+      force: true
 
 - shell:
   - git submodule sync --recursive

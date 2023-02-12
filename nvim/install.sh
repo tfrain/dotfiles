@@ -146,8 +146,11 @@ rm -rf "$HOME/.cache/vim/dein/.cache/"
 nvim -u init.vim -c 'call dein#recache_runtimepath()|q'
 
 ok "\n
-Congratulations thinkvim install success!!!\n
+Congratulations install success!!!\n
 Install your favorite font on here https://www.nerdfonts.com/font-downloads\n
 If you use linux,you need install ctags with janson support.\n
 Install the Lsp for your languages.\n
+Maybe execute below command:\n
+1. for defx: python3 -m pip install --user --upgrade pynvim\n
+2. for bash: npm i -g bash-language-server\n
 Thanks for you love this neovim config."

@@ -150,5 +150,6 @@
     "yml",
     "vim"
   ],
-  "coc.preferences.extensionUpdateCheck": "daily"
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "snippets.ultisnips.pythonPrompt": false
 }

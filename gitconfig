@@ -110,9 +110,9 @@
 	excludesfile = ~/.gitignore_global
 
 # Allow local customizations in the .gitconfig-personal file
-[includeIf "gitdir:~/go/"]
-  path = .gitconfig-personal
-[includeIf "gitdir:~/Repositories/"]
-  path = .gitconfig-personal
+[include]
+   path = .gitconfig-personal
+# https://www.51cto.com/article/631604.html
+# git repos, dir of work
 [includeIf "gitdir:~/work/"]
   path = .gitconfig-work
