@@ -68,6 +68,7 @@ macos_export() {
   export GOPATH=$HOME/go
   export GOROOT="$(brew --prefix golang)/libexec"
   export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+	export GO111MODULE="auto"
 }
 main() {
 	# Editor
@@ -76,7 +77,9 @@ main() {
   export REACT_EDITOR="nvim"
   # History
   export HISTFILE="$HOME/.zsh_history"
-
+  # Proxy
+  export http_proxy=socks5://127.0.0.1:10808
+  export https_proxy=socks5://127.0.0.1:10808
   osname=$(uname -sm)
   case "${osname}" in
 		Linux*)

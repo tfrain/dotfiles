@@ -32,6 +32,7 @@
       ignore-missing: true
       path: tmux/.tmux.conf
     ~/.config/nvim: nvim
+    ~/.config/proxy: proxy
     ~/.zshrc:
       force: true
 
