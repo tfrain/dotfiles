@@ -22,3 +22,4 @@ If you want to use vim mode copy content to clipboard, you need to choose Genera
 
 ## tested
 test once
+test two
