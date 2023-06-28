@@ -10,7 +10,7 @@ m1.
 You need to execute a series of commands
 ```bash
 source ~/.zshrc
-brew install neovim node tmux
+brew install neovim node tmux git-delta
 cd nvim && sh install.sh
 python3 -m pip install --user --upgrade pynvim # for defx
 npm i -g bash-language-server # for bash

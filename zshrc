@@ -78,8 +78,8 @@ main() {
   # History
   export HISTFILE="$HOME/.zsh_history"
   # Proxy
-  export http_proxy=socks5://127.0.0.1:10808
-  export https_proxy=socks5://127.0.0.1:10808
+  # export http_proxy=socks5://127.0.0.1:10808
+  # export https_proxy=socks5://127.0.0.1:10808
   osname=$(uname -sm)
   case "${osname}" in
 		Linux*)
