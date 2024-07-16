@@ -9,11 +9,15 @@ m1.
 ## Using the config
 You need to execute a series of commands
 ```bash
-source ~/.zshrc
-brew install neovim node tmux git-delta
-cd nvim && sh install.sh
-python3 -m pip install --user --upgrade pynvim # for defx
-npm i -g bash-language-server # for bash
+1. chsh -s /bin/bash
+2. source ~/.zshrc
+3. use link:
+   https://raw.githubusercontent.com/tfrain/dotfiles/master/surfingkeys.js for
+   surfingkeys
+3. brew install neovim node tmux git-delta
+4. cd nvim && sh install.sh
+5. python3 -m pip install --user --upgrade pynvim # for defx
+6. npm i -g bash-language-server # for bash
 ```
 If you want to use vim mode copy content to clipboard, you need to choose General->Selection->Applications in terminal... in iterm2.
 <center>

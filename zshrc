@@ -64,12 +64,18 @@ linux_export() {
   # rust
   export PATH="$HOME/.cargo/bin:$PATH"
 }
+
 macos_export() {
+	# GO
   export GOPATH=$HOME/go
   export GOROOT="$(brew --prefix golang)/libexec"
   export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
-	export GO111MODULE="auto"
+  export GO111MODULE="auto"
+  export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+  # For vscode
+  export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 }
+
 main() {
 	# Editor
   export EDITOR="nvim"
@@ -92,4 +98,3 @@ main() {
   esac
 }
 main
-
