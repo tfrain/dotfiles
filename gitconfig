@@ -116,7 +116,7 @@
 [delta]
   navigate = true
 	light = false
-  features = side-by-side ecorations line-numbers
+  features = side-by-side decorations line-numbers
 	syntax-theme = Dracula
 	plus-style = syntax "#003800"
 	minus-style = syntax "#003800"
@@ -128,7 +128,7 @@
   commit-decoration-style = bold yellow box ul
 	file-decoration-style = none
   file-style = bold yellow ul
-  hunk-header-decoration-style = cyan box ul
+  hunk-header-decoration-style = yellow box
 
 [delta "line-numbers"]
   line-numbers-left-style = cyan
